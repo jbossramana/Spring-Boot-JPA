@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>lab7-Spring-Boot-Hibernate</artifactId>
+	<artifactId>lab7.6-Spring-Boot-JPA-Relation-WebClient</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lab7-Spring-Boot-Hibernate</name>
 	<description>Demo project for Spring Boot</description>
