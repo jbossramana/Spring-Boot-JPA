@@ -6,7 +6,7 @@ import demo.boot.model.Task;
 
 public interface TaskService {
 
-    ResponseEntity<Task> getAllTasks();
+    ResponseEntity<List<Task>> getAllTasks();
 
     ResponseEntity<Task> getTaskById(Long id);
 
