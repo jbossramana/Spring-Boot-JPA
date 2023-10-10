@@ -9,7 +9,7 @@
 		<relativePath>../kafka-labs-parent-pom/pom.xml</relativePath>
 	</parent>
 	
-	<artifactId>lab2-Simple-Consumer</artifactId>
+	<artifactId>02-new-kafka-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lab2-Simple-Consumer child pom</name>
 	<packaging>jar</packaging>
