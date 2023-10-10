@@ -24,8 +24,14 @@ public class TaskServiceImpl implements TaskService {
     }
 
     @Override
-    public ResponseEntity<Task> getAllTasks() {
-        return restTemplate.getForEntity(getBaseUrl(), Task.class);
+    public ResponseEntity<List<Task>> getAllTasks() {
+        ResponseEntity<List<Task>> responseEntity = restTemplate.exchange(
+            getBaseUrl(),
+            HttpMethod.GET,
+            null,
+            new ParameterizedTypeReference<List<Task>>() {}
+        );
+        return responseEntity;
     }
 
     @Override
