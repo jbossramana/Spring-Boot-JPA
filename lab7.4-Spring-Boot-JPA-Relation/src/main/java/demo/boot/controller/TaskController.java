@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/tasks")
+@RequestMapping("/task")
 public class TaskController {
 
     private final TaskDAO taskDAO;
